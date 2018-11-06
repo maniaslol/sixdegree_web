@@ -1,0 +1,132 @@
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+
+$white: #fff !default;
+$gray-100: #c9c9c9 !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$primary: #4A90E2 !default;
+$secondary: #84B4CC !default;
+$success: $green !default;
+$info: #8DA291 !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: #EAF0ED !default;
+$dark: $gray-800 !default;
+
+$spacer: 1rem !default;
+$baseline:10px !default;
+
+@mixin background-image($url) {
+    background-image: $url;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.input-group {
+    display: flex;
+}
+
+.input-group-apend {
+    display: inline-block;
+
+}
+
+.mt-1 {
+    margin-top: $baseline*1;
+}
+
+.mt-2 {
+    margin-top: $baseline*2;
+}
+
+.mt-3 {
+    margin-top: $baseline*3;
+}
+
+.mt-4 {
+    margin-top: $baseline*4;
+}
+
+.mt-5 {
+    margin-top: $baseline*5;
+}
+
+.mt-6 {
+    margin-top: $baseline*6;
+}
+
+.mt-12 {
+    margin-top: $baseline*12;
+}
+
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 992px) {
+    .mx-lg-0 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+.pd-0 {
+    padding: 0;
+}
+
+.pd-1 {
+    padding: $baseline*1;
+}
+
+.py-1 {
+    padding: 0 $baseline*1;
+}
+
+.py-2 {
+    padding: 0 $baseline*2;
+}
+
+.py-3 {
+    padding: 0 $baseline*3;
+}
+
+.py-4 {
+    padding: 0 $baseline*4;
+}
+
+.py-5 {
+    padding: 0 $baseline*5;
+}
+
+.fz-0 {
+    font-size: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 1.5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}

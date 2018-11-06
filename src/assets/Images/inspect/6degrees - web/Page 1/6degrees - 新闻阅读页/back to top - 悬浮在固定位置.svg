@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>E94B49AA-7F34-40EC-B5E7-BAED9519CBA5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="40" height="40" rx="4"></rect>
+        <filter x="-28.8%" y="-23.8%" width="157.5%" height="157.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.17 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6degrees---新闻阅读页" transform="translate(-1353.000000, -593.000000)">
+            <g id="back-to-top---悬浮在固定位置" transform="translate(1360.000000, 598.000000)">
+                <g id="Dropdowns-/-Ghost-Dropdown-Copy-3">
+                    <g id="Dropdown">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill-opacity="0.195340806" fill="#4A90E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <polyline id="Path-4" stroke="#4A90E2" stroke-width="2" points="8 25.939174 19.9695097 14 32 26"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
