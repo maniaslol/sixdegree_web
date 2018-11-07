@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="24px" viewBox="0 0 27 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6degrees-web-B會員登入" transform="translate(-652.000000, -252.000000)" stroke="#9B9B9B">
+            <g id="Group-2" transform="translate(653.000000, 252.000000)">
+                <path d="M20.295756,15.5147004 C22.0194135,15.5166534 23.416227,16.9134668 23.41818,18.6371244 L23.41818,21.7595484 L1.561212,21.7595484 L1.561212,18.6371244 C1.56316503,16.9134668 2.95997846,15.5166534 4.683636,15.5147004 L20.295756,15.5147004 Z M20.295756,13.9534884 L4.683636,13.9534884 C2.09693526,13.9534884 0,16.0504236 0,18.6371244 L0,23.3207604 L24.979392,23.3207604 L24.979392,18.6371244 C24.979392,16.0504236 22.8824567,13.9534884 20.295756,13.9534884 Z" id="Shape" fill="#9B9B9B" fill-rule="nonzero"></path>
+                <rect id="Rectangle" stroke-width="2.5" x="7.06395349" y="1.25" width="9.989696" height="9.989696" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

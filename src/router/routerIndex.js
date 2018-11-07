@@ -9,6 +9,16 @@ const routes = [{
         component: () => import('../views/index.vue'),
     },
     {
+        path: "/recommend",
+        name: "recommend",
+        component: () => import('../views/recommend.vue'),
+    },
+    {
+        path: "/tagPage/:id",
+        name: "tagPage",
+        component: () => import('../views/tagPage.vue'),
+    },
+    {
         path: "/inspect/:id",
         name: "inspect",
         component: () => import('../views/inspectPage.vue'),

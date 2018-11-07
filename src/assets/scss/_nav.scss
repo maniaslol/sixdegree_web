@@ -28,7 +28,7 @@ nav {
         li {
             display: inline-block;
             height: 67px;
-            width: 11.1%;
+            padding: 0 8px;
             margin: 0 auto;
             text-align: center;
 
@@ -40,12 +40,11 @@ nav {
                 font-size: 15px;
                 font-weight: 500;
                 letter-spacing: -0.54px;
+
             }
         }
 
         .home {
-            width: 22.2%;
-
             a {
                 line-height: 70px;
                 color: $primary;
@@ -58,7 +57,7 @@ nav {
     }
 
     .search-input {
-        width: 60px;
+        width: 250px;
         margin-top: 35px;
         transform: translateY(-50%);
         border: 1px solid gray;
@@ -68,7 +67,6 @@ nav {
         color: #fff;
 
         &:hover {
-            width: 200px;
             transition: all 1.2s;
         }
 
@@ -86,7 +84,6 @@ nav {
             }
         }
 
-
         input {
             height: 30px;
             font-size: 14px;
@@ -99,15 +96,11 @@ nav {
             color: transparent;
 
             &::placeholder {
-                color: transparent;
                 transition: all 0.8s;
             }
 
             &:focus {
-                transition: all 1.2s;
-                color: transparent;
                 transition: all 0.8s;
-                width: 250px;
             }
 
             &:hover {
@@ -121,8 +114,6 @@ nav {
             }
         }
     }
-
-
 
     .user-bar {
         .user-donate {
@@ -218,21 +209,33 @@ nav {
 .hottag {
     height: 50px;
     background-color: #ecf3fc;
+    overflow-y: hidden;
 
     a {
-        margin-left: 48px;
+        margin-left: 20%;
         line-height: 50px;
         text-align: right;
         color: #8e8e93;
 
-        @media (min-width: 769px) {
-            margin-left: 32px;
+        @media (min-width: 412px) {
+            margin-left: 12%;
+        }
 
+        @media (min-width: 576px) {
+            margin-left: 8%;
+        }
+
+        @media (min-width: 769px) {
+            margin-left: 5%;
         }
     }
 
     a:nth-child(1) {
-        margin-left: 16px;
+        margin-left: 32px;
+
+        @media (min-width: 412px) {
+            margin-left: 16px;
+        }
 
         @media (min-width: 769px) {
             margin-left: 10%;
@@ -240,14 +243,13 @@ nav {
     }
 }
 
-
 //手機平板hearer----------------------------------
 
 .pad-header {
     height: 160px;
     text-align: center;
 
-    @media (min-width: 420px) {
+    @media (min-width: 576px) {
         height: 112px;
         border-bottom: 3px solid $primary;
     }
@@ -255,7 +257,6 @@ nav {
     a {
         i {
             font-size: 22px;
-            color: $primary;
         }
     }
 
@@ -274,11 +275,11 @@ nav {
         color: #5e6474;
 
         @media (min-width: 576px) {
-            width: 50%;
+            width: 60%;
         }
 
         @media (min-width: 750px) {
-            width: 60%;
+            width: 75%;
         }
 
         // &:hover {
@@ -388,7 +389,6 @@ nav {
 
         li {
             display: inline-block;
-            width: 11.1%;
             margin: 0 auto;
             text-align: center;
             line-height: 67px;
@@ -405,8 +405,6 @@ nav {
         }
 
         .home {
-            width: 22.2%;
-
             a {
                 line-height: 36px;
                 color: $primary;
@@ -417,4 +415,24 @@ nav {
             border-bottom: 3px solid $primary;
         }
     }
+
+    .burger-bottom {
+        line-height: 35px;
+
+        a {
+            i {
+                color: $primary;
+            }
+
+            ::after {
+                display: none;
+            }
+        }
+
+    }
+
+}
+
+.dropdown-toggle::after {
+    display: none;
 }

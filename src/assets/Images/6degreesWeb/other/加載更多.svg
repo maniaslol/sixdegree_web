@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="745px" height="30px" viewBox="0 0 745 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>28137501-4E67-43CE-9305-1A76AC13C5A6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6degrees---新闻阅读页" transform="translate(-160.000000, -1988.000000)">
+            <g id="正在刷新" transform="translate(160.000000, 1988.000000)">
+                <rect id="Divider-Copy-6" fill="#4A90E2" transform="translate(372.500000, 14.000000) rotate(90.000000) translate(-372.500000, -14.000000) " x="371.5" y="-358.5" width="2" height="745"></rect>
+                <g id="Dropdowns-/-Ghost-Dropdown-Copy-2" transform="translate(240.000000, 0.000000)">
+                    <rect id="Dropdown" fill="#4A90E2" x="0" y="0" width="300" height="30" rx="4"></rect>
+                    <text id="加载更多" font-family=".PingFangTC-Regular, .PingFang TC" font-size="12" font-weight="normal" letter-spacing="-0.200000003" fill="#FFFFFF">
+                        <tspan x="125.896" y="17">加载更多</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
